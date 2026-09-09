@@ -1,0 +1,4 @@
+rate= float(input("Enter your rate: "))
+gross_pay= hours*rate
+print("Gross pay:", gross_pay)
+#3:Write a Python program that takes
