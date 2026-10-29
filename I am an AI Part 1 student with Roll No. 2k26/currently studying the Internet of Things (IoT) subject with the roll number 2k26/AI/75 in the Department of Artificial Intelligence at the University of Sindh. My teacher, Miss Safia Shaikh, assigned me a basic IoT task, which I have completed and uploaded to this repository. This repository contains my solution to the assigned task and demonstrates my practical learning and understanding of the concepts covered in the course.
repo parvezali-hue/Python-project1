@@ -1,0 +1,77 @@
+Q:1
+fruits = {"Apple", "Banana", "Mango", "Orange", "Grapes"}
+
+print(fruits)
+Output 
+{'Apple', 'Banana', 'Mango', 'Orange', 'Grapes'}
+
+
+Q:2
+numbers = [2, 4, 2, 6, 4, 8, 8]
+
+unique_numbers = set(numbers)
+
+print(unique_numbers)
+
+Output:
+{2, 4, 6, 8}
+
+Q:3
+numbers = {1, 2, 3, 4, 5}
+
+numbers.add(10)
+numbers.remove(3)
+
+print(numbers)
+
+Output:
+{1, 2, 4, 5, 10}
+
+Q:4
+numbers = {10, 20, 30, 40, 50}
+
+num = int(input("Enter a number: "))
+
+if num in numbers:
+    print("Number exists in the set")
+else:
+    print("Number does not exist in the set")
+
+Output:
+Enter a number: 30
+Number exists in the set
+
+Q:5
+values = {1, 2, 2, 3, 3, 3, 4}
+
+print("Set:", values)
+print("Length:", len(values))
+
+Output:
+Set: {1, 2, 3, 4}
+Length: 4
+
+Q:6
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+
+# 1. Union
+print("Union:", A | B)
+
+# 2. Intersection
+print("Intersection:", A & B)
+
+# 3. Difference
+print("A - B:", A - B)
+print("B - A:", B - A)
+
+# 4. Symmetric Difference
+print("Symmetric Difference:", A ^ B)
+
+Output:
+
+Union: {1, 2, 3, 4, 5, 6}
+Intersection: {3, 4}
+A - B: {1, 2}
+B - A: {5, 6}
+Symmetric Difference: {1, 2, 5, 6}
